@@ -1,0 +1,52 @@
+body {
+  background: #f4f6fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  max-width: 360px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+  padding: 32px 32px 24px 32px;
+}
+.logo {
+  width: 60px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+h2 {
+  margin: 12px 0 6px;
+  text-align: center;
+}
+p {
+  margin: 0 0 20px 0;
+  text-align: center;
+  color: #555;
+  font-size: 15px;
+}
+input[type="text"], input[type="email"], input[type="tel"] {
+  width: 100%;
+  padding: 12px;
+  margin: 6px 0 12px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #1744a2;
+}
