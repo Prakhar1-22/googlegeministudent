@@ -2,20 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gemini Student Program</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
     <form id="studentForm">
-      <img src="c:\Users\pvagr\Downloads\New folder (2)\Google-Gemini-Logo.png" alt="Gemini Logo" class="logo">
+      <img src="https://logos-world.net/wp-content/uploads/2025/02/Google-Gemini-Logo.png" alt="Gemini Logo" class="logo">
       <h2>Gemini Student Program</h2>
-      <p>Enter your details to receive information about our exclusive student offer.</p>
+      <p>Enter your Valid details.</p>
       <input type="text" id="name" placeholder="Full Name" required>
       <input type="email" id="email" placeholder="Email Address" required>
       <input type="tel" id="phone" placeholder="Phone Number" required>
       <button type="submit">Submit & Continue</button>
     </form>
+    <div class="progress-overlay" id="progressOverlay">
+      <div class="progress-spinner"></div>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
