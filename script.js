@@ -2,7 +2,7 @@
 const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/library/d/14X-Xl9Vdd8c-e3VrXVJOHATCtO62pWcdMFzvElktCf17G9p6-TOYmez9/1";
 
 // This is the redirect URL from your QR code
-const REDIRECT_URL = "https://aiskillshouse.com/student/qr-mediator.html?uid=1433&promptId=6";
+const REDIRECT_URL = "https://aiskillshouse.com/student/qr-mediator.html?uid=1433&promptId=19";
 
 document.getElementById('studentForm').addEventListener('submit', function(e){
   e.preventDefault();
@@ -32,3 +32,4 @@ document.getElementById('studentForm').addEventListener('submit', function(e){
     alert("Something went wrong!");
   });
 });
+
